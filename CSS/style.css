@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+
+/* --for-svg-icons--
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+
+
+
+
+:root{
+    /* --primary-colors-- */
+    --storng-cyan: #26baa4;
+    --Light-Blue: #6173ff;
+
+    /* --Neutral-colors-- */
+    Dark-Grayish-Blue: #4c545d;
+    Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+html{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
