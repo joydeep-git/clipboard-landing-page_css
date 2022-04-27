@@ -315,6 +315,10 @@ footer{
     header .top-btn button:nth-child(2){
         margin: 0;
     }
+    header .top-btn button a{
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 
     main .main-top{
@@ -446,7 +450,5 @@ footer{
         width: 2rem;
         margin: 0rem;
     }
-
-
-
+    
 }
