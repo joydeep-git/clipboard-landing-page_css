@@ -20,7 +20,7 @@ ul{list-style-type: none;}
 a{text-decoration: none;}
 
 header{
-    background-repeat: none;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -44,6 +44,9 @@ header .top-intro h1{
     font-weight: 600;
     color: var(--Dark-Grayish-Blue);
     margin-bottom: 1rem;
+}
+header .top-intro h1 br{
+    display: none;
 }
 header .top-intro p{
     color: var(--Grayish-Blue);
@@ -265,7 +268,185 @@ footer{
 .part-2 a img:hover{
     opacity: 0.5;
 }
-@media only screen and (max-width: 712px){
+@media screen and (max-width: 768px){
 
-    
+    img{
+        width: 50%;
+    }
+
+    header .top-intro{
+        background: url(/images/bg-header-mobile.png);
+        background-repeat:no-repeat;
+        background-size: 100%;
+        padding: 1.5rem;
+        margin: 0;
+    }
+    header .top-intro img{
+        width: 5rem;
+        margin: 0rem;
+        margin: 5rem auto 2rem auto;
+        padding: 0;
+    }
+    header .top-intro h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    header .top-intro h1 br{
+        display:flex;
+    }
+    header .top-intro p{
+        display: flex;
+        text-align: center;
+        margin: 0rem;
+        padding: 0rem;
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    header .top-btn{
+        margin: 0;
+        padding: 0;
+    }
+    header .top-btn button{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+        padding: 1.5rem 5rem;
+    }
+    header .top-btn button:nth-child(2){
+        margin: 0;
+    }
+
+
+    main .main-top{
+        width: 100%;
+        padding: 3rem;
+        line-height: 1.5rem;
+    }
+    main .main-top h2{
+        font-size: 1.5rem;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    main .main-top p{
+        font-size: 0.9rem;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .main-mid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-mid img{
+        margin: 0;
+        padding: 3rem;
+        width: 100%;
+        height: auto;
+        /* height: 35rem; */
+        /* width: 46rem; */
+    }
+
+    .main-mid-right{
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-mid-right p{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1rem;
+    }
+
+    .main-bottom img{
+        width: 80%;
+    }
+
+    .main-bottom2 p{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .most-bottom{
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .most-bottom div img{
+        width: 3rem;
+    }
+    .most-bottom div{
+        margin: 2rem auto;
+    }
+
+    .images{
+        flex-direction: column;
+        width: 15rem;
+        height: auto;
+        align-items: center;
+    }
+
+    .main-last div h2{
+        font-size: 1.5rem;
+    }
+    .main-last div p{
+        width: 70%;
+        padding: 0;
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-btn{
+        width: 90%;
+        display: flex;
+        margin: 0rem;
+        padding: 0rem;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-btn button:nth-child(2){
+        margin-left: 1rem;
+    }
+
+    footer{
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    footer .part-1{
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .part-1 img{
+        width: 2rem;
+        height: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .part-2{
+        margin: 2rem;
+    }
+    .part-2 img{
+        width: 2rem;
+        margin: 0rem;
+    }
+
+
+
 }
