@@ -184,6 +184,8 @@ main .main-top p{
 }
 .images{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
     gap: 6rem;
     margin-bottom: 6rem;
